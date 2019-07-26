@@ -6,6 +6,8 @@ class Bookings {
     this.date = date;
     this.roomNumber = roomNumber;
   }
+
+  
 }
 
 

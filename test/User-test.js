@@ -10,10 +10,10 @@ import spies from 'chai-spies';
 
 chai.use(spies);
 
-describe('User', function() {
+describe('User', () => {
   let user;
 
-  beforeEach(function() {
+  beforeEach(() => {
     user = new User(1, "Matilde Larson", usersSampleData);
   });
 
