@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <title>Overlook Hotel Management</title>
+    <title>Overlook Hotel</title>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:400,500,700&display=swap" rel="stylesheet">
   </head>
   <body>
+      <nav>
+      </nav>
     <header>
-      <h1 class="heading">Overlook Hotel Management</h1>
+      <h1 class="heading">Overlook Hotel</h1>
+      <div role ="button" class="reservation-icon" id="js-reservation-form book-icon">
+        <img class="reservation-icon" src="images/calendar.svg"
+        alt="calendar image">
+      </div> 
       <p class="date" id="js-date">Date</p>
       <p class="customer-name" id="js-customer-name">All Customers</p>
     </header>
@@ -15,8 +22,8 @@
         <button class="btn" id="js-orders-btn">Orders</button>
         <button class="btn" id="js-rooms-btn">Rooms</button>
         <button class="btn" id="js-customer-btn">Customer</button>
+        <input class="input" id="js-customer-input"></input>
       </nav>
-      <section class="content" id="js-main-content">main</section>
       <section class="content" id="js-orders-content" style="display: none">
         orders
       </section>
@@ -27,5 +34,9 @@
         customer
       </section>
     </main>
+    <div>
+        <img  class="background-image" src="images/overlookHotelRoomView.svg" 
+              alt="Overlook Hotel view from the room of the mediteranean sea">
+      </div>
   </body>
 </html>
