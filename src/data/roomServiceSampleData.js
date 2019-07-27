@@ -1,5 +1,17 @@
 const roomServiceSampleData = [
   {
+    userID: 14,
+    date: "2019/09/01",
+    food: "Awesome Granite Sandwich",
+    totalCost: 18.34
+    },
+  {
+    userID: 88,
+    date: "2019/08/11",
+    food: "Handcrafted Rubber Sandwich",
+    totalCost: 22.45
+    },
+  {
   userID: 14,
   date: "2019/07/29",
   food: "Rustic Concrete Sandwich",

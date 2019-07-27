@@ -10,37 +10,7 @@ class Rooms {
     this.costPerNight = costPerNight;
   }
 
-  findMostPopDate (){
-
-  }
-
-  findMostAvailDate (){
-
-  }
-
-  findAvailability (date){
-
-  }
-
-  filterBooking(customer) {
-
-  }
-
-  createNewBooking(customer) {
-
-  }
-
-  filterAvailRoomType(date) {
-
-  }
-
-  createBookingObj() {
-
-  }
-
-  filterFood() {
-
-  }
+  
 
 
 }

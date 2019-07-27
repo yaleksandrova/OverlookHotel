@@ -1,5 +1,13 @@
 const roomsSampleData = [
     {
+        number: 17,
+        roomType: "junior suite",
+        bidet: false,
+        bedSize: "king",
+        numBeds: 2,
+        costPerNight: 393.97
+        },
+    {
     number: 1,
     roomType: "residential suite",
     bidet: false,

@@ -1,5 +1,10 @@
 const bookingsSampleData = [
   {
+    userID: 14,
+    date: "2019/09/01",
+    roomNumber: 17
+    },
+  {
   userID: 4,
   date: "2019/10/19",
   roomNumber: 5
@@ -43,6 +48,16 @@ const bookingsSampleData = [
   userID: 18,
   date: "2019/09/26",
   roomNumber: 36
-  }
+  },
+  {
+    userID: 67,
+    date: "2019/10/19",
+    roomNumber: 16
+    },
+  {
+    userID: 70,
+    date: "2019/10/19",
+    roomNumber: 25
+    }
 ]
 export default bookingsSampleData;

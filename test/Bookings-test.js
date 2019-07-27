@@ -25,4 +25,15 @@ describe('Bookings', () => {
     expect(bookings).to.be.a.instanceOf(Bookings)
   });
 
+  it('should find the most popular date', () => {
+    expect(bookings.findMostPopBookingDate()).to.equal("2019/10/19")
+  });
+
+  it('should find available room', () => {
+    expect(bookings.findAvailableRooms ()).to.equal()
+  });
+
+  it('should show customer bookings', () => {
+    expect(bookings.showCustomersBookings()).to.equal()
+  });
 })

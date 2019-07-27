@@ -46,14 +46,33 @@ h1 {
   margin: 0;
   font-weight: 400;
   color: #a18f61;
+  text-align: center;
+  text-transform: uppercase;
+  
+ 
+
+}
+
+
+
+nav {
+  display: inline;
+ 
 }
 
 .btn {
   font-family: 'Nanum Myeongjo', serif;
   font-size: 20px;
+  color: #a18f61;
+}
+
+.btn:hover {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 20px;
   margin: 0;
   font-weight: 400;
   color: #a18f61;
+  background-color: lightblue;
 }
 
 
