@@ -1,4 +1,4 @@
-const roomServicesSampleData = [
+const roomServiceSampleData = [
   {
   userID: 14,
   date: "2019/07/29",
@@ -49,4 +49,4 @@ const roomServicesSampleData = [
   }
 ]
 
-export default roomServicesSampleData;
+export default roomServiceSampleData;
