@@ -15,19 +15,19 @@ describe('roomService', () => {
   let roomService;
   
   beforeEach(() => {
-    roomService = new roomService(14, "2019/07/29", "Rustic Concrete Sandwich", 14.9);
+    roomService = new RoomService(14, "2019/07/29", "Rustic Concrete Sandwich", 14.9);
   })
 
   it('should be a function', () => {
-    expect(roomService).to.be.a('function')
-  })
+    expect(RoomService).to.be.a('function')
+  });
 
-  it('should be a new instance of bookings', () => {
-    expect(roomService).to.be.a.instanceOf(roomService)
+  it('should be a new instance of room service', () => {
+    expect(roomService).to.be.a.instanceOf(RoomService)
   });
 
   it('should take all orders', () => {
-    expect(roomService.allOrders(date)).to.equal(food);
+    expect(roomService.allOrders()).to.equal();
   }); 
 
 })

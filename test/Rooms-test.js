@@ -21,7 +21,7 @@ describe('Rooms', () => {
     expect(Rooms).to.be.a('function')
   })
 
-  it('should be a new instance of bookings', () => {
+  it('should be a new instance of rooms', () => {
     expect(rooms).to.be.a.instanceOf(Rooms)
   });
 

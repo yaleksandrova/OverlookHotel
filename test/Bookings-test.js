@@ -5,7 +5,7 @@ import Bookings from '../src/Bookings';
 import Rooms from '../src/Rooms.js';
 import RoomService from '../src/RoomService';
 import DOMupdates from '../src/DOMupdates.js';
-import bookingsSampleData from '../src/data/bookingSampleData.js';
+import bookingsSampleData from '../src/data/bookingsSampleData.js';
 import spies from 'chai-spies';
 
 chai.use(spies);
