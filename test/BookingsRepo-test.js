@@ -40,7 +40,7 @@ describe('BookingsRepo', () => {
   });
 
   it('should calculate the number of available rooms based on the date', function() {
-    expect(bookings.calculateAvailableRoomsByDate()).to.equal();
+    expect(bookingsRepo.calculateAvailableRoomsByDate()).to.equal();
   });
 
   it('should calculate the number of occupied rooms based on the date', function() {

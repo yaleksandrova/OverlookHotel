@@ -1,6 +1,9 @@
 var chai = require('chai');
 var expect = chai.expect;
+
 import Hotel from '../src/Hotel.js';
+import bookingsSampleData from '../src/data/bookingsSampleData.js';
+import roomsSampleData from '../src/data/roomsSampleData.js';
 import User from '../src/User.js';
 import RoomService from '../src/RoomService.js';
 
@@ -19,7 +22,8 @@ describe('Hotel', () => {
 
 beforeEach( () => {
   bookings = new Bookings(bookingsSampleData, roomsSampleData);
-  customer = new Customer();
+  user = new User();
+
   roomService = new RoomService(roomServiceSampleData, user);
   hotel = new Hotel(bookings, roomService);
 });

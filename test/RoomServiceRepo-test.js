@@ -8,9 +8,11 @@ import spies from 'chai-spies';;
 chai.use(spies);
 
 describe('roomServiceRepo', () => {
+  let user;
   let roomServiceRepo;
   
   beforeEach(() => {
+
     user = new User(1, "Matilde Larson");
     roomServiceRepo = new RoomServiceRepo (roomServiceSampleData, user);
   });
