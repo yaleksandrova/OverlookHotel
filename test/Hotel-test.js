@@ -33,11 +33,11 @@ beforeEach( () => {
   })
 
   it('should calculate the overal total balance per one date', () => {
-    expect(hotel.calculateOverallBalancePerDate("2019/09/01")).to.equal("412.31");
+    expect(hotel.calculateOverallBalancePerDate("2019/09/01")).to.equal(412.31);
   })
 
   it('should calculate the total bill for one customer for all services for all dates', () => {
-    expect(hotel.calculateATotalBillPerCustomer(14)).to.equal("427.21");
+    expect(hotel.calculateATotalBillPerCustomer(14)).to.equal(427.21);
   })
   
 });

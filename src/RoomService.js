@@ -1,5 +1,3 @@
-import DOMupdates from './DOMupdates';
-
   class RoomService {
     constructor (id, date, food, totalCost) {
       this.id = id;
@@ -8,17 +6,6 @@ import DOMupdates from './DOMupdates';
       this.totalCost = totalCost; 
     }
 
-    allOrders(date) {
-
-    }
-
-    findOrderByDate (){
-
-    }
-
-    findTotal (){
-
-    }
-  }
+}
 
 export default RoomService;

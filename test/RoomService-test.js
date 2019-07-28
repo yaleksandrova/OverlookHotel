@@ -1,21 +1,14 @@
 import chai from 'chai';
 const expect = chai.expect;
-import User from '../src/User.js';
-import Bookings from '../src/Bookings';
-import Rooms from '../src/Rooms.js';
 import RoomService from '../src/RoomService';
-import DOMupdates from '../src/DOMupdates.js';
-import roomServiceSampleData from '../src/data/roomServiceSampleData.js';
 import spies from 'chai-spies';
-
 chai.use(spies);
-
 
 describe('roomService', () => {
   let roomService;
   
   beforeEach(() => {
-    roomService = new RoomService(14, "2019/07/29", "Rustic Concrete Sandwich", 14.9);
+    roomService = new RoomService(23, "2019/09/11", "Awesome Cotton Sandwich", 20.79);
   })
 
   it('should be a function', () => {
@@ -26,8 +19,17 @@ describe('roomService', () => {
     expect(roomService).to.be.a.instanceOf(RoomService)
   });
 
-  it('should take all orders', () => {
-    expect(roomService.allOrders()).to.equal();
-  }); 
+  it('should have a date', () => {
+    expect(roomService.date).to.equal("2019/09/11");
+  })
+
+  it('should select a food item from the menu', () => {
+    expect(roomService.food).to.equal( "Awesome Cotton Sandwich");
+  })
+
+  it('should show the price of the item', () => {
+    expect(roomService.totalCost).to.equal(20.79);
+  })
+
 
 })

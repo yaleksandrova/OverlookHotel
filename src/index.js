@@ -18,30 +18,31 @@ import RoomService from '../src/RoomService.js';
 import DOMupdates from '../src/DOMupdates.js';
 
 
-let usersSampleData = fetch('https://fe-apps.herokuapp.com/api/v1/overlook/1904/users/users')
+let usersData = fetch('https://fe-apps.herokuapp.com/api/v1/overlook/1904/users/users')
 .then(response => response.json()) 
 .then(result => result.users)
-console.log(usersSampleData)
+console.log(usersData)
 
-let roomsSampleData = fetch('https://fe-apps.herokuapp.com/api/v1/overlook/1904/rooms/rooms')
+let roomsData = fetch('https://fe-apps.herokuapp.com/api/v1/overlook/1904/rooms/rooms')
   .then(response => response.json())
   .then(result => result.rooms)
   .catch(err => console.error(err));
-  console.log(roomsSampleData)
+  console.log(roomsData)
   
 
-let roomServiceSampleData = fetch('https://fe-apps.herokuapp.com/api/v1/overlook/1904/room-services/roomServices')
+let roomServiceData = fetch('https://fe-apps.herokuapp.com/api/v1/overlook/1904/room-services/roomServices')
   .then(response => response.json())
   .then(result => result.roomService)
   .catch(err => console.error(err));
-  console.log(roomServiceSampleData)
+  console.log(roomServiceData)
 
-let bookingsSampleData = fetch('https://fe-apps.herokuapp.com/api/v1/overlook/1904/bookings/bookings')
+let bookingsData = fetch('https://fe-apps.herokuapp.com/api/v1/overlook/1904/bookings/bookings')
   .then(response => response.json())
   .then(result => result.bookings)
   .catch(err => console.error(err));
-  console.log(bookingsSampleData)
+  console.log(bookingsData)
   
+
 
   
 
